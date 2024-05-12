@@ -1,6 +1,5 @@
 class Solution:
     def findMinSteps(self, ring: str, key: str) -> int:
-
         hs = dict()
         for i in range(len(ring)):
             if ring[i] not in hs:

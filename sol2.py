@@ -21,3 +21,4 @@ class Solution:
                         vis[i2][j] = True
                         q.append((i2, j))
             step += 1
+
